@@ -6,5 +6,5 @@
   
   - name: update linux
     apt:
-      update_cache: yes
       upgrade: dist
+      update_cache: yes
