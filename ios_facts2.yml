@@ -12,3 +12,4 @@
   tasks:
     - name: gather router facts
       cisco.ios.facts:
+        gather_subset: all
