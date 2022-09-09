@@ -2,6 +2,11 @@
 
 - name: gather information from routers
   hosts: all
+  vars:
+    ansible_become: true
+    ansible_become_method: enable
+    ansible_connection: network_cli
+    ansible_network_os: ios
   gather_facts: no
 
   tasks:
