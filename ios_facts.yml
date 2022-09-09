@@ -1,6 +1,8 @@
 ---
 - name: Test IOS Facts
   hosts: all
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
   tasks:
     - debug:
         var: ansible_facts
