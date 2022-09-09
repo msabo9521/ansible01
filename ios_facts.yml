@@ -1,6 +1,6 @@
 ---
 - name: Test IOS Facts
-  hosts: routers
+  hosts: all
   tasks:
     - debug:
         var: ansible_facts
