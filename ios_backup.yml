@@ -17,4 +17,4 @@
         backup: yes
         backup_options:
          filename: backup.cfg
-         dir_path: /home/msabo/
+         dir_path: /backup/
