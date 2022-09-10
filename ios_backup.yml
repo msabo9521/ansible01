@@ -17,4 +17,4 @@
         backup: yes
         backup_options:
          filename: backup.cfg
-         dir_path: /backup/
+         dir_path: /var/lib/awx/projects
